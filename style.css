@@ -1071,4 +1071,32 @@ body {
 .photoreel::-webkit-scrollbar-track {
   background: #fff0f8;
   border-radius: 8px;
+
+}
+.btn {
+  display: flex;
+  gap: 12px;
+  /* Add any alignment or spacing as needed */
+}
+.btn #btn__music, .btn #btn__letter {
+  background: linear-gradient(90deg, #ff82a9, #ffc5db);
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  box-shadow: 0 3px 10px #ff7a9f;
+  cursor: pointer;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;
+}
+.btn .music-icon, .btn .mail {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.btn #btn__music:hover {
+  background: #da5c82;
 }
